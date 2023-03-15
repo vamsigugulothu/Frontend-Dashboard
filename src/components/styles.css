@@ -1,0 +1,100 @@
+.computer{
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    height: 65%;
+    transform: translate(0%, 0%) scale(1);
+}
+.computer #gif {
+    position: absolute;
+    top: 47%;
+    left: 51%;
+    width: 63%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    z-index: 15;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.computer img {
+    z-index: 1;
+}
+
+.subcontainer {
+
+}
+
+/* @media only screen and (min-width: 992px) {
+    .subcontainer {
+        margin-top: 180px;
+    }
+} */
+
+.div-mobile {
+    z-index: 0;
+    top: 50%;
+    left: 52%;
+    width: 30%;
+    height: 65%;
+    margin-top: 25px;
+    transform: translate(0%, 0%) scale(1);
+}
+
+.div-mobile img {
+    padding-top: 35px;
+    top: 47%;
+    left: 15%;
+    position: absolute;
+    z-index: 15;
+    width: 250px;
+}
+
+.div-mobile #gif {
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    width: 63%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.feat-card {
+    margin-top: 600px;
+}
+
+@media only screen and (max-width: 560px) {
+    .div-mobile {
+        display: flex;
+        justify-content: center;
+        left:auto;
+        z-index: 10;
+    }
+    .div-mobile img {
+        left: auto;
+        z-index: 15;
+        width: 100%;
+        z-index: 10;
+    }
+    .feat-card {
+        margin-top: 550px;
+        z-index: 9999;
+        position: absolute;
+        background-color: white;
+    }
+    .question-container {
+        margin-top: 1350px;
+    }
+}
+
+/* footer */
+
+ul li a {
+    color: #667085;
+}

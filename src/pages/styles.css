@@ -1,0 +1,9 @@
+
+
+@media only screen and (min-width: 992px) {
+    .list-card {
+        margin-top: -180px;
+        z-index: 999;
+        position: absolute;
+    }
+}
