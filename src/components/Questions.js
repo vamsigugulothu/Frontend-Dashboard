@@ -16,7 +16,7 @@ const Question = () => {
                 <p className="h3">Frequently asked questions</p>
                 <p className="fw-lighter">Everything you need to know about the product and billing.</p>
             </div>
-            <div className=" w-md-75 mx-auto mb-5">
+            <div className="mx-auto mb-5 question-div">
                 { AllQuestion?.map((data, idx) => {
                     return <AskQuestion key={idx} data={data}/>
                 })}

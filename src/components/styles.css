@@ -93,6 +93,16 @@
     }
 }
 
+.question-div {
+    width: 75% !important;
+}
+@media only screen and (max-width: 560px) {
+    .question-div {
+        width: 100% !important;
+    }
+}
+
+
 /* footer */
 
 ul li a {
